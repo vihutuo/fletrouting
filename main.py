@@ -1,7 +1,7 @@
 import flet as ft
 from flet_route import Routing,path
-from views.index import IndexView # Here IndexView is imported from views/index_view.py
-from views.question import QuestionView # Here NextView is imported from views/next_view.py
+from views.index import IndexView # Here IndexView is imported from views/index.py
+from views.question import QuestionView # Here NextView is imported from views/question.py
 def main(page: ft.Page):
     app_routes = [
         path(
