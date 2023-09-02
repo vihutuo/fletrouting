@@ -4,7 +4,6 @@ from views.index import IndexView # Here IndexView is imported from views/index_
 from views.question import QuestionView # Here NextView is imported from views/next_view.py
 
 def main(page: ft.Page):
-
     app_routes = [
         path(
             url="/", # Here you have to give that url which will call your view on mach
